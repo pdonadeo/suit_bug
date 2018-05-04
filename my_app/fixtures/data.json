@@ -1,0 +1,105 @@
+[
+    {
+        "fields": {
+            "name": "Product 1",
+            "ordering_1": 1,
+            "pub": true,
+            "ts": "2018-05-04T12:36:50.882Z",
+            "ts_insert": "2018-05-04T12:36:50.882Z"
+        },
+        "model": "my_app.product",
+        "pk": 1
+    },
+    {
+        "fields": {
+            "name": "Product 2",
+            "ordering_1": 2,
+            "pub": true,
+            "ts": "2018-05-04T12:36:58.505Z",
+            "ts_insert": "2018-05-04T12:36:58.505Z"
+        },
+        "model": "my_app.product",
+        "pk": 2
+    },
+    {
+        "fields": {
+            "name": "Product 3",
+            "ordering_1": 3,
+            "pub": true,
+            "ts": "2018-05-04T12:37:02.771Z",
+            "ts_insert": "2018-05-04T12:37:02.771Z"
+        },
+        "model": "my_app.product",
+        "pk": 3
+    },
+    {
+        "fields": {
+            "name": "LOOK BOOK 1",
+            "ordering_2": 1,
+            "pub": true,
+            "ts": "2018-05-04T12:38:56.665Z",
+            "ts_insert": "2018-05-04T12:36:17.475Z"
+        },
+        "model": "my_app.lookbook",
+        "pk": 1
+    },
+    {
+        "fields": {
+            "name": "LOOK BOOK 2",
+            "ordering_2": 2,
+            "pub": true,
+            "ts": "2018-05-04T12:36:24.338Z",
+            "ts_insert": "2018-05-04T12:36:24.338Z"
+        },
+        "model": "my_app.lookbook",
+        "pk": 2
+    },
+    {
+        "fields": {
+            "lookbook": 1,
+            "ordering_3": 0,
+            "product": 1,
+            "pub": true,
+            "ts": "2018-05-04T12:38:56.666Z",
+            "ts_insert": "2018-05-04T12:38:56.666Z"
+        },
+        "model": "my_app.lookbookproduct",
+        "pk": 1
+    },
+    {
+        "fields": {
+            "desc": "Image 1",
+            "lookbook": 1,
+            "ordering_4": 2,
+            "pub": true,
+            "ts": "2018-05-04T12:38:56.666Z",
+            "ts_insert": "2018-05-04T12:36:40.943Z"
+        },
+        "model": "my_app.lookbookimage",
+        "pk": 1
+    },
+    {
+        "fields": {
+            "desc": "Image 2",
+            "lookbook": 1,
+            "ordering_4": 3,
+            "pub": true,
+            "ts": "2018-05-04T12:38:56.667Z",
+            "ts_insert": "2018-05-04T12:36:40.944Z"
+        },
+        "model": "my_app.lookbookimage",
+        "pk": 2
+    },
+    {
+        "fields": {
+            "desc": "Image 3",
+            "lookbook": 1,
+            "ordering_4": 4,
+            "pub": true,
+            "ts": "2018-05-04T12:38:56.667Z",
+            "ts_insert": "2018-05-04T12:36:40.944Z"
+        },
+        "model": "my_app.lookbookimage",
+        "pk": 3
+    }
+]
